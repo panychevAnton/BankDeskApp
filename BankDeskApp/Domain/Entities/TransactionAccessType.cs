@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BankDeskApp.Domain.Entities
 {
-    class Users
+    class TransactionAccessType
     {
-        int id;
-        String username;
-        String salt;
-        String hashedPassword;
+        int Id;
+        int Explanation;
     }
 }
